@@ -1,0 +1,542 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;900&display=swap');
+
+body {
+    width: 100%;
+    max-width: 1930px;
+    min-width: 320px;
+    height: 1600px;
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    margin: auto;
+  }
+a {
+    text-decoration: none!important;
+    color: lightgrey;
+  }
+.p-11 {
+    margin-top: 40px;
+    margin-right: 70px;
+    font-size: 260%;
+    font-weight: 650;
+    color: black; 
+    float: right;
+  }
+
+.p-21 {
+    margin-top: 20px;
+    margin-right: 20px;
+    font-size: 200%;
+    font-weight: 100;
+    color: black;
+    float: right;
+    text-align: right;
+  }
+
+b {
+  float:left;
+    margin-left: 100px;
+    margin-top: 70px;
+    font-size: 700%;
+    font-weight: 700;
+    color: white;
+    text-shadow: 10px 10px 30px black;
+}
+.gibk{
+  position: relative;
+  width: 100%;
+  height: 780px;
+  }
+.gibk2{
+    position: relative;
+    width: 100%;
+    height: 400px;
+    }
+a:hover {
+    color: grey; 
+   }
+a:active {
+    color: lightgrey; 
+   }
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+.h2-1 {
+    margin-left: 40px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+.h3-1 {
+    margin-left: 40px;
+    margin-top: 20px;
+}
+h5 {
+color: white;
+}
+.color {
+    background-color: black;
+  }
+.container{
+  padding: 10%;
+  text-align: center;
+}
+.navbar{
+  background-color: black !important;
+ }
+ .navbar1{
+   margin-left: 5px !important;
+   height: 45px;
+   width: 530px;
+   max-width: 795px;
+   min-width: 100px;
+ }
+ .navbar-toggler{
+  background-color: white !important
+}
+ .logo{
+     margin-left: 10px;
+ }
+ .slova{
+   margin-left: 60px !important;
+   font-weight: normal!important;
+   font-size: 15pt!important;
+ }
+ .slova2{
+   font-size: 30pt!important;
+   font-weight: 600!important;
+   color: white!important;
+ }
+ .shirinaz{
+     margin-right: 40px !important; 
+ }
+ .shirinax{
+     margin-right: 80px !important; 
+ }
+audio:active, audio:focus {
+    outline: none;
+  }
+audio::-moz-focus-inner {
+    border: 0;
+  }
+.img-verh{
+    margin-top: 30px;
+    margin-left: 40px;
+  }
+.audio-verh{
+    width: 450px;
+    margin-top: 30px;
+    margin-left: 25px;
+  }
+.audio-verh1{
+    width: 450px;
+    margin-left: 25px;
+  }
+.linkverh{
+    margin-top: 30vh;
+    margin-left: 45.5vh;
+    margin-right: 10vh;
+    font-size: 150%
+  }
+.footer{
+    background-color: black;
+  }
+p{
+    color: rgb(255, 255, 255);
+    font-size: 120%;
+    margin-top: 10px;
+  }
+.font-size{
+    margin-left: 50px;
+    margin-top: 20px;
+    font-size: 300%;
+    font-weight: bolder;
+  }
+.font-footer{
+    margin-left: 50px;
+    font-size: 150%;
+  }
+.img-footer{
+    margin-right: 100px!important; 
+  }
+.footer-size{
+    height: 150px!important; 
+  }
+.img-pos{
+  position: relative;
+  width: 750px;
+  height: 780px;
+  float: left;
+  }
+
+.footer-size{
+  height: 150px!important; 
+}
+.backg{
+  position: relative;
+  width: 100%;
+  height: 780px;
+  background-color: rgb(255, 64, 64);
+}
+.audio-pole{
+  position: relative;
+  float: left;
+  height: 680px;
+  margin-top: 50px;
+  width: 500px;
+  background-color: white;
+  box-shadow: 25px 25px 17px rgba(0,0, 0, 0.4);
+}
+.audio-pole1{
+  position: relative;
+  float: right;
+  height: 680px;
+  margin-top: 50px;
+  margin-right: 50px;
+  width: 500px;
+  background-color: white;
+  box-shadow: 25px 25px 17px rgba(0,0, 0, 0.4);
+}
+.mini-audio{
+  margin-right: 85px;
+  margin-top: 40px;
+  font-size: 180%;
+  color: #000;
+  width: 250px;
+  height: 30px;
+  float: right;
+  
+  }
+.mini-audio1{
+  margin-right: 85px;
+  margin-top: -10px;
+  font-size: 180%;
+  color: #000;
+  width: 250px;
+  height: 30px;
+  float: right;
+  }
+.btn-pause{
+    margin-left: 50px;
+    margin-top: 50px;
+    position: relative;
+  }
+.fast-1{
+    margin-top: 50px;
+    margin-left: 50px;
+    height: 150px;
+    width: 500px;
+    background-color: rgb(209, 209, 209);
+    border-radius: 15px;
+    box-shadow: 20px 20px 17px rgba(0,0, 0, 0.4);
+    position: relative;
+}
+.fast-2{
+  margin-left: 680px;
+  margin-top: -150px;
+  height: 150px;
+  width: 500px;
+  background-color: rgb(209, 209, 209);
+  border-radius: 15px;
+  box-shadow: 20px 20px 17px rgba(0,0, 0, 0.4);
+  position: absolute;
+  }
+.fast-3{
+  margin-left: 1310px;
+  margin-top: -150px;
+  height: 150px;
+  width: 500px;
+  background-color: rgb(209, 209, 209);
+  border-radius: 15px;
+  box-shadow: 20px 20px 17px rgba(0,0, 0, 0.4);
+  position: absolute;
+  }
+.img-fast-1{
+  border-radius: 15px;
+  position: absolute;
+  }
+.shis{
+   width: 100%;
+   height: 200px;
+    }
+.shis2{
+      width: 100%;
+      height: 200px;
+       }
+audio:hover, audio:focus, audio:active
+{
+-webkit-box-shadow: 15px 15px 20px rgba(0,0, 0, 0.4);
+-moz-box-shadow: 15px 15px 20px rgba(0,0, 0, 0.4);
+box-shadow: 15px 15px 20px rgba(0,0, 0, 0.4);
+-webkit-transform: scale(1.05);
+-moz-transform: scale(1.05);
+transform: scale(1.05);
+}
+audio
+{
+filter: sepia(110%) saturate(0%) grayscale(0) contrast(110%) invert(0%);
+-webkit-transition:all 0.5s linear;
+-moz-transition:all 0.5s linear;
+-o-transition:all 0.5s linear;
+transition:all 0.5s linear;
+-moz-border-radius:30px 30px 30px 30px;
+-webkit-border-radius: 30px 30px 30px 30px;
+border-radius:30px 30px 30px 30px;
+}
+.download{
+  margin-left: 420px;
+  margin-top: 60px;
+  position: absolute;
+  }
+
+
+  @media (max-width: 500px) {
+    /* отменяем обтекание для логотипа и выравниваем по центру*/
+    .logo {
+      width: 50px;
+      height: 50px;
+    }
+    p{
+      color: rgb(255, 255, 255);
+      font-size: 120%;
+      margin-top: 10px;
+    }
+    body {
+      height: 1290px !important;
+    }
+    .slova {
+    float: left;
+    margin-left: 0;
+    }
+    .shirinaz, .shirinax {
+     display: none;
+      }
+    .img-pos{
+      width: 500px;
+      height: 280px;
+    }
+    .backg{
+      position: relative;
+      width: 100%;
+      height: 1330px;
+      background-color: rgb(255, 64, 64);
+    }
+    .p-11{
+      margin-left: 100px;
+      margin-top: 3px;
+      font-size: 150%;
+      font-weight: 600;
+      float:left;
+    }
+    .p-21{
+      margin-left: 10px;
+      margin-top: 0px;
+      font-size: 110%;
+      font-weight: 500;
+      float: left;
+      text-align: justify;
+    }
+    .h2-1 {
+      margin-left: 40px;
+      margin-top: 10px;
+      font-weight: bold;
+      font-size: 120%;
+    }
+    .h3-1 {
+      margin-left: 40px;
+      margin-top: 20px;
+      font-size: 120%;
+    }
+    b{
+      float: right;
+      margin-top: -25px;
+      margin-right: 100px;
+      line-height: 60px;
+      color: white;
+      text-shadow: 3px 3px 15px black;
+      font-size: 230%;
+      font-weight: 650;
+    }
+    .gibk{
+      width: 500px;
+      height: 1330px;
+      position: relative;
+    }
+    .gibk2{
+      width: 500px;
+      height: 1000px;
+      position: relative;
+    }
+    .audio-pole{
+      position: relative;
+      float: left;
+      height: 480px;
+      margin-top: 30px;
+      margin-left: 42px;
+      width: 360px;
+      background-color: white;
+      box-shadow: 0 0 40px 5px rgb(48, 48, 48);
+    }
+    .audio-pole1{
+      position: relative;
+      float: left;
+      height: 480px;
+      margin-top: 30px;
+      margin-left: 42px;
+      width: 360px;
+      background-color: white;
+      box-shadow: 0 0 40px 5px rgb(48, 48, 48);
+    }
+    .audio-verh{
+      width: 310px;
+      margin-top: 10px;
+      margin-left: 25px;
+    }
+  .audio-verh1{
+      width: 310px;
+      margin-left: 25px;
+    }
+    .shis{
+      width: 500px;
+      height: 420px;
+    }
+   .shis2{
+      width: 500px;
+      height: 450px;
+    }
+    .fast-1{
+      margin-top: 20px;
+      margin-left: 20px;
+      height: 120px;
+      width: 400px;
+      background-color: rgb(209, 209, 209);
+      border-radius: 15px;
+      box-shadow: 5px 5px 10px rgba(0,0, 0, 0.4);
+      position: relative;
+      float: left;
+    }
+    .fast-2{
+      margin-top: 20px;
+      margin-left: 20px;
+      height: 120px;
+      width: 400px;
+      background-color: rgb(209, 209, 209);
+      border-radius: 15px;
+      box-shadow: 5px 5px 10px rgba(0,0, 0, 0.4);
+      position: relative;
+      float: left;
+    }
+    .fast-3{
+      margin-top: 20px;
+      margin-left: 20px;
+      height: 120px;
+      width: 400px;
+      background-color: rgb(209, 209, 209);
+      border-radius: 15px;
+      box-shadow: 5px 5px 10px rgba(0,0, 0, 0.4);
+      position: relative;
+      float: left;
+    }
+    .img-fast-1{
+      border-radius: 15px;
+      position: absolute;
+      width: 120px;
+      height: 120px;
+    }
+    .btn-pause{
+      width: 40px;
+      height: 40px;
+      margin-left: 40px;
+      margin-top: 40px;
+      position: relative;
+    }
+    .mini-audio{
+      margin-right: 70px;
+      margin-top: 30px;
+      font-size: 130%;
+      color: #000;
+      width: 200px;
+      height: 20px;
+      float: right;
+    }
+    .mini-audio1{
+      margin-right: 70px;
+      margin-top: -10px;
+      font-size: 130%;
+      color: #000;
+      width: 200px;
+      height: 20px;
+      float: right;
+      }
+    .download{
+      margin-left: 330px;
+      margin-top: 45px;
+      position: absolute;
+      }
+    .img-verh{
+      margin-top: 30px;
+      margin-left: 40px;
+      width: 280px;
+      height: 280px;
+    }
+    .footer{
+      height: 200px;
+    }
+    p{
+      color: rgb(255, 255, 255);
+      font-size: 120%;
+      margin-top: 10px;
+      margin-right: 80px;
+    }
+    .font-size{
+      margin-left: 10px;
+      margin-top: 0px;
+      font-size: 140%;
+      font-weight: bolder;
+    }
+    .font-footer{
+      margin-bottom: 10px;
+      margin-left: 10px;
+      font-size: 110%;
+      width: 200px;
+    }
+    .img-footer{
+      margin-right: 10px;
+      width: 150px; 
+      height: 54.5px;
+      position: absolute;
+    }
+    .img-footer1{
+      margin-right: 100px;
+      width: 100px; 
+      height: 54.5px;
+      position: absolute;
+    }
+    .footer-size{
+      display: none;
+    }
+    h5{
+      font-size: 90%;
+      width: 100px; 
+    }
+    .row{
+      height:  130px;
+    }
+    .visota{
+        height: 130px;
+    }
+    .text-uppercase{
+      display: none;
+    }
+    .img-footer{
+      display: none;
+    }
+    .img-footer1{
+      display: none;
+    }
+    
+    }
+

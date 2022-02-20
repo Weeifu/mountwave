@@ -1,0 +1,315 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+    <link href="style/css_music.css" rel="stylesheet">
+    <link rel="shortcut icon" href="picture/logo.png" type="image/png">
+    <title>Music</title>
+  </head>
+  <body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="Index.html">
+          <img class="logo" src="picture/logo.png" width="80" height="80" alt="" loading="lazy">
+        </a>
+        
+        <a class="navbar-brand slova2">MountWave</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+       
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        
+          <form class="d-flex">
+            <input class="form-control mr-2 navbar1" type="search" placeholder="Поиск" aria-label="Search">
+          </form>
+          
+          <ul class="navbar-nav mr-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active text-white slova" aria-current="page" href="Index.html">Главная</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle text-white slova" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
+                Музыка
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Rock</a></li>
+                <li><a class="dropdown-item" href="Music.html">Hip-Hop</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Другая музыка</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle text-white slova" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
+                Фото
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Фото</a></li>
+                <li><a class="dropdown-item" href="Photo.html">Арты</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Другие изображения</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active text-white slova" aria-current="page" href="Contacts.html">Контакты</a>
+            </li>
+          </ul>
+          <a class="shirinaz" href="#">
+            <img src="picture/heart1.png" width="30" height="30" alt="" loading="lazy">
+          </a>
+          <a class="shirinax" href="#">
+            <img src="picture/tekna.png" width="50" height="50" alt="" loading="lazy">
+          </a>
+        </div>
+    </nav>
+
+<div class="gibk"> 
+<div class="backg">
+
+    <div class="img-pos">
+  <p class="p-11">Hip-Hop</p>
+  <b>MUSIC</b>
+  <p class="p-21">Музыка Хип-хоп состоит из двух основных <br>
+                 элементов: рэпа и ритма. Его культура, <br>
+                 определяется четыремя ключевыми <br>
+                 элементами: исполнение рэпа, <br>
+                 диджеинг/скретчинг на виниловых <br>
+                 проигрывателях, брейк-данс <br>
+                 и рисование граффити.</p>
+    </div>
+    
+
+  <div class="audio-pole">
+    <img class="img-verh" src="picture/Dying.jpg" width="420" height="420" loading="lazy" >
+    <h2 class="h2-1">Dying to Live</h2>
+    <h3 class="h3-1">Kodak Black - Transgression</h3>
+    <audio class="audio-verh" controls>
+      <source class="audio" src="music/Kodak Black - If I'm Lyin', I'm Flyin'.mp3" type="audio/mpeg">
+    </audio>
+  </div>
+
+  <div class="audio-pole1">
+    <img class="img-verh" src="picture/Dying.jpg" width="420" height="420" loading="lazy" >
+    <h2 class="h2-1">Dying to Live</h2>
+    <h3 class="h3-1">Kodak Black - ZEZE (ft. Travis Scott & Offset)</h3>
+    <audio class="audio-verh1" controls>
+      <source class="audio" src="music/Kodak Black feat. Offset, Travis Scott - ZEZE (feat. Travis Scott & Offset).mp3" type="audio/mpeg">
+    </audio>
+  </div>
+</div> 
+</div>
+
+
+<div class="gibk2">
+  <div class="shis">
+  <div class="fast-1">
+  <img class="img-fast-1" src="picture/flove.jpg" width="150" height="150" alt="" loading="lazy">
+  <a href="music/Pred/Oliver Tree - Jerk.mp3" target="_blank" download> <img class="download" src="picture/download.png" width="40" height="40"></a>
+  <a href="##"><img id="btn-play" class="btn-pause" src="picture/play.png" width="50" height="50" alt="" loading="lazy"></a>
+<script> var el = document.getElementById('btn-play');
+var playing = false; 
+var player = new Audio("../Курсовая/music/Pred/The Kid LAROI - TELL ME WHY.mp3");
+player.preload = "auto";
+player.addEventListener('ended', function(){ 
+  el.innerText = "Done";
+  playing = false;
+});
+el.addEventListener('click', playPause); 
+
+function playPause() {
+  if( playing) {
+    player.pause();
+    
+  } else {
+    player.play();
+   
+  }
+  playing = !playing;
+}
+</script>
+<h2 class="mini-audio">The Kid LAROI</h2>
+<h2 class="mini-audio1">TELL ME WHY</h2>
+</div>
+
+  <div class="fast-2">
+  <img class="img-fast-1" src="picture/sadboi.jpg" width="150" height="150" alt="" loading="lazy">
+  <a href="music/Pred/Oliver Tree - Jerk.mp3" target="_blank" download> <img class="download" src="picture/download.png" width="40" height="40"></a>
+  <a href="##"><img id="btn-play1" class="btn-pause" src="picture/play.png" width="50" height="50" alt="" loading="lazy"></a>
+<script> var el1 = document.getElementById('btn-play1');
+var playing1 = false; 
+var player1 = new Audio("music/Pred/Bars And Melody - Bloodshots.mp3");
+player1.preload = "auto";
+player1.addEventListener('ended', function(){ 
+  el1.innerText1 = "Done";
+  playing1 = false;
+});
+el1.addEventListener('click', playPause); 
+
+function playPause() {
+  if( playing1) {
+    player1.pause();
+    
+  } else {
+    player1.play();
+   
+  }
+  playing1 = !playing1;
+}
+</script>
+<h2 class="mini-audio">Bars and Melody</h2>
+<h2 class="mini-audio1">Bloodshots</h2>
+</div>
+
+<div class="fast-3">
+  <img class="img-fast-1" src="picture/pain.jpg" width="150" height="150" alt="" loading="lazy">
+  <a href="music/Pred/Oliver Tree - Jerk.mp3" target="_blank" download> <img class="download" src="picture/download.png" width="40" height="40"></a>
+  <a href="##"><img id="btn-play2" class="btn-pause" src="picture/play.png" width="50" height="50" alt="" loading="lazy"></a>
+<script> var el2 = document.getElementById('btn-play2');
+var playing2 = false; 
+var player2 = new Audio("music/Pred/Wifisfuneral - End Of Story.mp3");
+player2.preload2 = "auto";
+player2.addEventListener('ended', function(){ 
+  el2.innerText = "Done";
+  playing2 = false;
+});
+el2.addEventListener('click', playPause); 
+
+function playPause() {
+  if( playing2) {
+    player2.pause();
+    
+  } else {
+    player2.play();
+   
+  }
+  playing2 = !playing2;
+}
+</script>
+<h2 class="mini-audio">Wifisfuneral</h2>
+<h2 class="mini-audio1">End Of Story</h2>
+</div>
+</div>
+
+<div class="shis2">
+<div class="osn1">
+<div class="fast-1">
+<img class="img-fast-1" src="picture/college.jpg" width="150" height="150" alt="" loading="lazy">
+<a href="music/Pred/Oliver Tree - Jerk.mp3" target="_blank" download> <img class="download" src="picture/download.png" width="40" height="40"></a>
+<a href="##"><img id="btn-play3" class="btn-pause" src="picture/play.png" width="50" height="50" alt="" loading="lazy"></a>
+<script> var el3 = document.getElementById('btn-play3');
+var playing3 = false; 
+var player3 = new Audio("music/Pred/24kGoldn - CITY OF ANGELS.mp3");
+player3.preload3 = "auto";
+player3.addEventListener('ended', function(){ 
+  el3.innerText = "Done";
+  playing3 = false;
+});
+el3.addEventListener('click', playPause); 
+
+function playPause() {
+  if( playing3) {
+    player3.pause();
+    
+  } else {
+    player3.play();
+   
+  }
+  playing3 = !playing3;
+}
+</script>
+<h2 class="mini-audio">24kGoldn</h2>
+<h2 class="mini-audio1">CITY OF ANGELS</h2>
+</div>
+
+<div class="fast-2">
+<img class="img-fast-1" src="picture/dying.jpg" width="150" height="150" alt="" loading="lazy">
+<a href="music/Pred/Oliver Tree - Jerk.mp3" target="_blank" download> <img class="download" src="picture/download.png" width="40" height="40"></a>
+<a href="##"><img id="btn-play4" class="btn-pause" src="picture/play.png" width="50" height="50" alt="" loading="lazy"></a>
+<script> var el4 = document.getElementById('btn-play4');
+var playing4 = false; 
+var player4 = new Audio("music/Pred/Kodak Black - This Forever.mp3");
+player4.preload4 = "auto";
+player4.addEventListener('ended', function(){ 
+  el4.innerText = "Done";
+  playing4 = false;
+});
+el4.addEventListener('click', playPause); 
+
+function playPause() {
+  if( playing4) {
+    player4.pause();
+    
+  } else {
+    player4.play();
+   
+  }
+  playing4 = !playing4;
+}
+</script>
+<h2 class="mini-audio">Kodak Black</h2>
+<h2 class="mini-audio1">This Forever</h2>
+</div>
+
+<div class="fast-3">
+<img class="img-fast-1" src="picture/Ugly.jpg" width="150" height="150" alt="" loading="lazy">
+<a href="music/Pred/Oliver Tree - Jerk.mp3" target="_blank" download> <img class="download" src="picture/download.png" width="40" height="40"></a>
+<a href="##"><img id="btn-play5" class="btn-pause" src="picture/play.png" width="50" height="50" alt="" loading="lazy"></a>
+<script> var el5 = document.getElementById('btn-play5');
+var playing5 = false; 
+var player5 = new Audio("music/Pred/Oliver Tree - Jerk.mp3");
+player5.preload5 = "auto";
+player5.addEventListener('ended', function(){ 
+  el5.innerText = "Done";
+  playing5 = false;
+});
+el5.addEventListener('click', playPause); 
+
+function playPause() {
+  if( playing5) {
+    player5.pause();
+    
+  } else {
+    player5.play();
+   
+  }
+  playing5 = !playing5;
+}
+</script>
+<h2 class="mini-audio">Oliver Tree</h2>
+<h2 class="mini-audio1">Jerk</h2>
+</div>
+</div>
+</div>
+
+<footer class="text-center text-lg-start footer">
+  <div class="container-fluid visota p-4">
+    <div class="row">
+      <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+        <a href="Contacts.html"><h5 class="font-size text-left">Contacts</h5></a>
+        <p class="text-left font-footer">
+        mountwaves@gmail.com
+        </p>
+        <p class="text-left font-footer">
+          +7 (800) 555-35-35
+          </p>
+      </div>
+      <div class="col-lg-6 col-md-12 mb-4 mb-md-0 footer-size">
+        <h5 class="text-uppercase">Слушать в:</h5>
+        <a href="https://music.apple.com/us/browse" target="_blank"><img class="img-footer" src="picture/apple.png" width="300" height="109" alt=""></a>
+        <a href="https://www.spotify.com/ru-ru/home/" target="_blank"><img src="picture/spotify.png" width="300" height="168" alt=""></a>
+      </div>
+    </div>
+  </div>
+  <div class="text-center p-2" style="background-color: rgba(34, 34, 34, 0.2);">
+   <p> © 2020 Copyright:  mountwaves.com</p>
+    <a class="text-white" href="https://mdbootstrap.com/"></a>
+  </div>
+</footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
+  </body>
+</html>
